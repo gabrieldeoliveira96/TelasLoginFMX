@@ -1,0 +1,90 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 496
+  ClientWidth = 400
+  Fill.Color = xFF0A71B1
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Circle1: TCircle
+    Fill.Kind = Gradient
+    Fill.Gradient.Points = <
+      item
+        Color = xFF0E84CE
+        Offset = 0.007407409138977528
+      end
+      item
+        Color = xFF062786
+        Offset = 0.995061695575714100
+      end>
+    Fill.Gradient.Style = Radial
+    Locked = True
+    Position.X = -82.000000000000000000
+    Position.Y = -10.000000000000000000
+    Size.Width = 1161.000000000000000000
+    Size.Height = 1000.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = xFF8AD5F1
+    Stroke.Thickness = 5.000000000000000000
+    Stroke.Cap = Round
+    Stroke.Dash = Dash
+  end
+  object S: TRectangle
+    Corners = [TopRight, BottomLeft]
+    Fill.Color = claWhite
+    Position.X = 40.000000000000000000
+    Position.Y = 152.000000000000000000
+    Size.Width = 313.000000000000000000
+    Size.Height = 161.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    XRadius = 30.000000000000000000
+    YRadius = 30.000000000000000000
+    object Rectangle4: TRectangle
+      Align = Center
+      Fill.Kind = Gradient
+      Fill.Gradient.Points = <
+        item
+          Color = xFF0A73C7
+          Offset = 0.000000000000000000
+        end
+        item
+          Color = xFF0E18B4
+          Offset = 1.000000000000000000
+        end>
+      Fill.Gradient.Style = Radial
+      Size.Width = 157.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 5.000000000000000000
+      YRadius = 5.000000000000000000
+      object SkLabel1: TSkLabel
+        Align = Center
+        Locked = True
+        Size.Width = 50.659999847412110000
+        Size.Height = 27.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family]
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.Font.Weight = Semibold
+        TextSettings.FontColor = claWhite
+        Words = <
+          item
+            Text = 'Login'
+          end>
+      end
+    end
+    object ShadowEffect1: TShadowEffect
+      Distance = 3.000000000000000000
+      Direction = 45.000000000000000000
+      Softness = 0.300000011920929000
+      Opacity = 0.600000023841857900
+      ShadowColor = claBlack
+    end
+  end
+end

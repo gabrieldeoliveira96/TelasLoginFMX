@@ -1,0 +1,81 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 500
+  ClientWidth = 368
+  Fill.Color = xFF29844A
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Rectangle1: TRectangle
+    Align = Bottom
+    Fill.Color = claWhite
+    Position.Y = 248.000000000000000000
+    Size.Width = 368.000000000000000000
+    Size.Height = 252.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = Resource
+    object ShadowEffect1: TShadowEffect
+      Distance = 10.000000000000000000
+      Softness = 0.300000011920929000
+      Opacity = 0.600000023841857900
+      ShadowColor = claWhite
+    end
+  end
+  object Rectangle2: TRectangle
+    Fill.Color = claWhite
+    Position.X = 40.000000000000000000
+    Position.Y = 144.000000000000000000
+    Size.Width = 292.000000000000000000
+    Size.Height = 168.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    XRadius = 10.000000000000000000
+    YRadius = 10.000000000000000000
+    object ShadowEffect2: TShadowEffect
+      Distance = 3.000000000000000000
+      Direction = 45.000000000000000000
+      Softness = 0.300000011920929000
+      Opacity = 0.600000023841857900
+      ShadowColor = claBlack
+    end
+    object Rectangle3: TRectangle
+      Align = Center
+      Fill.Kind = Gradient
+      Fill.Gradient.Points = <
+        item
+          Color = xFF27841F
+          Offset = 0.000000000000000000
+        end
+        item
+          Color = xFF07DE32
+          Offset = 1.000000000000000000
+        end>
+      Fill.Gradient.StartPosition.X = 0.080450169742107390
+      Fill.Gradient.StopPosition.X = 0.919549822807312000
+      Size.Width = 161.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 5.000000000000000000
+      YRadius = 5.000000000000000000
+      object SkLabel1: TSkLabel
+        Align = Center
+        Size.Width = 50.659999847412110000
+        Size.Height = 27.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family]
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.Font.Weight = Semibold
+        TextSettings.FontColor = claWhite
+        Words = <
+          item
+            Text = 'Login'
+          end>
+      end
+    end
+  end
+end
